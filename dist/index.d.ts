@@ -1,5 +1,6 @@
-import { Client } from '@elizaos/core';
+import { Client, Plugin } from '@elizaos/core';
 
 declare const DevaClientInterface: Client;
+declare const devaPlugin: Plugin;
 
-export { DevaClientInterface, DevaClientInterface as default };
+export { DevaClientInterface, devaPlugin as default };
