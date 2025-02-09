@@ -1,4 +1,4 @@
-// src/index.ts
+// src/client.ts
 import { elizaLogger as elizaLogger4 } from "@elizaos/core";
 
 // src/devaClient.ts
@@ -4360,7 +4360,7 @@ ${errorMessages}`
   }
 }
 
-// src/index.ts
+// src/client.ts
 var DevaClientInterface = {
   name: "deva",
   async start(runtime) {
@@ -4377,6 +4377,8 @@ var DevaClientInterface = {
     return deva;
   }
 };
+
+// src/index.ts
 var devaPlugin = {
   name: "deva",
   description: "Deva client plugin",
@@ -4384,7 +4386,6 @@ var devaPlugin = {
 };
 var index_default = devaPlugin;
 export {
-  DevaClientInterface,
   index_default as default
 };
 //# sourceMappingURL=index.js.map
